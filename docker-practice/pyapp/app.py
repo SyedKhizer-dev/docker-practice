@@ -44,4 +44,4 @@ def add_user():
 
 if __name__ == "__main__":
     print(f"server running on port {PORT}")
-    app.run(port=PORT)
+    app.run(host="0.0.0.0", port=PORT)
