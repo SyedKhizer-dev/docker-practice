@@ -1,6 +1,6 @@
 services:
   mongo:
-    image: mongo:9
+    image: mongo
     ports:
       - "27017:27017"
     environment:
